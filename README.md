@@ -1,4 +1,4 @@
-# PAY-TO-BDT
+
 <!DOCTYPE html>
 <html lang="bn">
 <head>
@@ -171,7 +171,7 @@
         };
 
         window.copyRefer = function() {
-            const link = `https://t.me/**[আপনার_বট_ইউজারনেম]**?start=${userId}`;
+            const link = `https://t.me/**[PayToBdt_bot]**?start=${userId}`;
             navigator.clipboard.writeText(link);
             alert("আপনার রেফারেল লিঙ্ক কপি হয়েছে!");
         };
